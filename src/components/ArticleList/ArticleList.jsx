@@ -1,4 +1,4 @@
-import articles from '../../../articles.json'
+import articles from '../../assets/data/articles.json'
 import Article from '../Article/Article'
 
 const ArticleList = () => {
