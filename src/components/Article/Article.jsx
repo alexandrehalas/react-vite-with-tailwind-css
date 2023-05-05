@@ -5,6 +5,8 @@ const Article = ({ title, text, tags, image, alt }) => {
             <div className="grid gap-1">
                 {text.map((content, index) => <p key={index} className="text-blueSystem-200 dark:text-gray-400">{content}</p>)}
             </div>
+            {image && <img className="mt-4" src='LoremIpsumDolor.png' />}
+            {image && alt && <span className="sr-only">{alt}</span>}
         </div>
     )
 }
